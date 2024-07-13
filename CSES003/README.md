@@ -1,5 +1,4 @@
 # Training Log (CSES003)
-
 ## Day-Wise
 ### 2024/06/24 (Monday)
 - #### Binary Trees
