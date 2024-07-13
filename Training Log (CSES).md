@@ -1,4 +1,4 @@
-# Training Log (CSES)
+# Training Log (CSES003)
 
 ## Day-Wise
 ### 2024/06/24 (Monday)
@@ -36,7 +36,7 @@
 - #### Binary Trees
   - [Root to Leaf Path][2024/06/27 Question 1]
   - [Mirror Tree][2024/06/27 Question 2]
-  - [Get elements in given range][2024/06/27 Question 3]v
+  - [Get elements in given range][2024/06/27 Question 3]
   - [Normal BST to Balanced BST][2024/06/27 Question 4]
 
 ### 2024/06/28 (Friday)
@@ -133,7 +133,7 @@
   - [Climbing Stairs][2024/07/10 Question 1]
 
 ### 2024/07/11 (Thursday) 
-- I was Absent
+- Did some mock viva for the upcoming end exam
 
 ### 2024/07/12 (Friday)
 - Project Day!!!
@@ -155,18 +155,15 @@
 ### End Exam
 - Project based
 - Group size: Single individual
-- Project submission date: `2024/07/10 (YYYY/MM/DD)`
+- Project submission date: `2024/07/12 (YYYY/MM/DD)`
 - A power point presentation is required:
-  - Process
-  - Source Code
-  - Documentation also?
-- Complete any 1 of the 10 topics that will be given
+- Complete any 1 of the 2 topics that will be given
 - Programming languages accepted:
   - Java
   - C++
 - Project is to be submitted
-- Evaluation is based on the project
-- Evaluation will be done by the trainer
+- Evaluation is based on the project and the ViVa on it
+- Evaluation will be done by the trainer/lecturer
 - Project Reference:
   - [N-Queens Visualizer][weblink-endexam-reference1]
 
@@ -189,96 +186,6 @@
   - Check if a word is a Palindrome or not
 
 ---
-## Things to learn
-- How to tackle Questions
-- How to break question to their basic parts when it comes to recursion
-- Template "\<T>"
-- Tower of Hanoi
-- Sorting Algorithms
-- Manipulation to arrays are global actions
-- Its *Integer.MAX_VALUE* not *Integer.MAX*
-- In a recursion:
-  - Create and Utilize a class (Example: named as "Info")
-    - if you need to return multiple values of different data-types
-    - if the inner states need to communicate with the outter non-adjacent states
-- While Tackling a question:
-  - Present the most simple and inefficient, but not bruteforce, solution
-- Java Library and their DataTypes:
-  - Queues using LinkedList:
-  - List and Arrays:
-    - List<List<Integer>> answer = new ArrayList<>()
-    - Whats the difference between `List<>` and `ArrayList<>`?
-- Topics to learn:
-  - Red Black Trees
-  - AVL Trees
-- Initialize variables in for-loop but with different data-types
-- On on/off or 0/1 problems, think of even and odd approaches
-- Interfaces
-- Abstract classes
-- Parse methods
-- ### Priority Queue:
-  - Learn how to quickly create priority queues of different objects
-- ### Heaps:
-  - By default, Java uses Min Heap
-  - Visualization: Binary Tree
-  - Implementation: Arrays
-  - Filling of Heap follows a Complete Binary Tree
-- ### Graphs:
-  - Unidirectional and Bidirectional Graphs
-  - Weighted and Unweighted Graphs
-  - #### Storing graphs:
-    - We store the graph's nodes and their immediate neighbours to which they are connected to
-    - Data structures:
-      - Using an Array of ArrayList
-      - Using an ArrayList of ArrayList
-      - Using Hashmaps
-  - #### Adjacency Matrix
-    - Table size: count(Vertices)^2^
-    - As the name suggest, it denotes the the distance from one node to its **adjacent** neighbours
-  - #### Edge List
-    - It stores the unique sets of edges present in the graph
-    - Data Structure:
-      - An array of ArrayList
-    - For weighted graphs, it also stores the weight of the edge between the nodes at the last position of their correspoding array in the edge list
-  - #### Implicit Graph
-  - #### Applications of Graphs:
-    - Maps:
-      - Finding the shortest path
-    - Social Networks:
-      - Finding friends within a social network
-    - Deliveery Network:
-      - Shortest cyclic route
-  - #### Graph Traversal
-    - On the decision to choose which of the child nodes to traverse first, do we utilize their weights as a factor?
-    - ##### Methods to graph traversal:
-      - ###### Breadth-First-Search (BFS):
-        - It is similar to level traversal in a Tree
-        - To keep track of nodes that had previously been traversed:
-          - Implement a queue of the ID of the current node and its neighbouring nodes
-          - Implement an array of boolean to indicate the nodes visited
-      - ###### Depth-First-Search (DFS):
-        <!-- - It traverses to the  -->
-
-  
-- ### Dynamic Programming:
-  - It stores the pre-computed data into a data structure to reduce redundant computation
-  - Dynamic Programming is optimized Recursion
-  - Types:
-    - Top-to-Bottom approach
-      - This approach utilizes memoization
-    - Bottom-to-Top approach
-      - This approach utilizes tabulation
-  - Techniques:
-    - #### Memoization
-    - #### Tabulation
-  - Why does the fibonacci solution with **O(n)** time complexity require an extra memory space with `fibo(n+1)`?
-
-- ### Threads
-  - Thread.getState():
-    - New
-    - Runnable
-    - Terminated
-
 
 
 <!--Links-->
